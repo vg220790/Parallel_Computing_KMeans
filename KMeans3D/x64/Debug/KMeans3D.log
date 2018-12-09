@@ -1,0 +1,122 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\afeka\Desktop\KMeans3D\KMeans3D>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\MPICH2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\afeka\Desktop\KMeans3D\KMeans3D\kernel.cu" 
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\users\afeka\desktop\kmeans3d\kmeans3d\header.h(26): warning : declaration requires a typedef name
+c:\users\afeka\desktop\kmeans3d\kmeans3d\header.h(34): warning : declaration requires a typedef name
+c:\users\afeka\desktop\kmeans3d\kmeans3d\header.h(46): warning : declaration requires a typedef name
+C:/Users/afeka/Desktop/KMeans3D/KMeans3D/kernel.cu(42): warning : variable "parts" was set but never used
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\users\afeka\desktop\kmeans3d\kmeans3d\header.h(26): warning : declaration requires a typedef name
+c:\users\afeka\desktop\kmeans3d\kmeans3d\header.h(34): warning : declaration requires a typedef name
+c:\users\afeka\desktop\kmeans3d\kmeans3d\header.h(46): warning : declaration requires a typedef name
+C:/Users/afeka/Desktop/KMeans3D/KMeans3D/kernel.cu(42): warning : variable "parts" was set but never used
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  kernel.cu
+  Main.cpp
+c:\users\afeka\desktop\kmeans3d\kmeans3d\header.h(26): warning C4091: 'typedef ': ignored on left of 'boolean' when no variable is declared
+c:\users\afeka\desktop\kmeans3d\kmeans3d\header.h(34): warning C4091: 'typedef ': ignored on left of 'Cluster' when no variable is declared
+c:\users\afeka\desktop\kmeans3d\kmeans3d\header.h(46): warning C4091: 'typedef ': ignored on left of 'Point' when no variable is declared
+c:\users\afeka\desktop\kmeans3d\kmeans3d\main.cpp(128): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\afeka\desktop\kmeans3d\kmeans3d\main.cpp(39): warning C4101: 'i': unreferenced local variable
+  Generating Code...
+  Compiling...
+  SourceFunctions.cpp
+c:\users\afeka\desktop\kmeans3d\kmeans3d\header.h(26): warning C4091: 'typedef ': ignored on left of 'boolean' when no variable is declared
+c:\users\afeka\desktop\kmeans3d\kmeans3d\header.h(34): warning C4091: 'typedef ': ignored on left of 'Cluster' when no variable is declared
+c:\users\afeka\desktop\kmeans3d\kmeans3d\header.h(46): warning C4091: 'typedef ': ignored on left of 'Point' when no variable is declared
+c:\users\afeka\desktop\kmeans3d\kmeans3d\sourcefunctions.cpp(31): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+c:\users\afeka\desktop\kmeans3d\kmeans3d\sourcefunctions.cpp(108): warning C4101: 'i': unreferenced local variable
+c:\users\afeka\desktop\kmeans3d\kmeans3d\sourcefunctions.cpp(126): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\afeka\desktop\kmeans3d\kmeans3d\sourcefunctions.cpp(136): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\afeka\desktop\kmeans3d\kmeans3d\sourcefunctions.cpp(143): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+c:\users\afeka\desktop\kmeans3d\kmeans3d\sourcefunctions.cpp(209): warning C4101: 'tid': unreferenced local variable
+c:\users\afeka\desktop\kmeans3d\kmeans3d\sourcefunctions.cpp(219): warning C4101: 'tid': unreferenced local variable
+c:\users\afeka\desktop\kmeans3d\kmeans3d\sourcefunctions.cpp(243): warning C4101: 'i': unreferenced local variable
+c:\users\afeka\desktop\kmeans3d\kmeans3d\sourcefunctions.cpp(293): warning C4101: 'j': unreferenced local variable
+c:\users\afeka\desktop\kmeans3d\kmeans3d\sourcefunctions.cpp(326): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
+c:\users\afeka\desktop\kmeans3d\kmeans3d\sourcefunctions.cpp(377): warning C4101: 'z': unreferenced local variable
+c:\users\afeka\desktop\kmeans3d\kmeans3d\sourcefunctions.cpp(376): warning C4101: 'status': unreferenced local variable
+c:\users\afeka\desktop\kmeans3d\kmeans3d\sourcefunctions.cpp(377): warning C4101: 'k': unreferenced local variable
+c:\users\afeka\desktop\kmeans3d\kmeans3d\sourcefunctions.cpp(377): warning C4101: 'previous_size': unreferenced local variable
+  Generating Code...
+  KMeans3D.vcxproj -> C:\Users\afeka\Desktop\KMeans3D\x64\Debug\KMeans3D.exe
+  KMeans3D.vcxproj -> C:\Users\afeka\Desktop\KMeans3D\x64\Debug\KMeans3D.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\afeka\Desktop\KMeans3D\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.
