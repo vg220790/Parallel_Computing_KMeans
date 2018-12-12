@@ -1,4 +1,4 @@
-Project by: Victoria Glazunov 316659135
+Project by: Victoria Glazunov
 
 The project opens the usual way on a computer with CUDA
 
